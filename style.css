@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1 {
+.heading1, h1 {
     text-align: center;
     background-color:rgb(193, 163, 98) ;
     color: #f9f9f9;
@@ -12,7 +12,7 @@ h1 {
     font-size: 50px;
 }
 
-h2 {
+.heading2 {
     color: white;
 }
 
@@ -33,6 +33,7 @@ h2 {
     list-style: none;
     margin-left: auto;
     padding-right: 15%;
+    padding-top: 15px;
 }
 
 .nav-links li {
