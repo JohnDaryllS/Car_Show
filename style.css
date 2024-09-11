@@ -3,7 +3,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.heading1, h3 {
+.heading1, h1 {
+    text-align: center;
+    color: rgb(193, 163, 98);
+    background-color:  #333;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.heading3, h3 {
     text-align: center;
     background-color:rgb(193, 163, 98) ;
     color: #f9f9f9;
