@@ -9,9 +9,15 @@ body {
 .heading1, h1 {
     text-align: center;
     color: rgb(193, 163, 98);
-    background-color:  #333;
+    background-color:  hsl(0, 0%, 20%);
     margin: 0;
     padding: 20px 0;
+    cursor: pointer;
+}
+
+.heading1:hover {
+    color: hsl(184, 87%, 63%);
+    background-color:hsl(0, 0%, 30%) ;
 }
 
 .heading3, h3 {
