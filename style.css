@@ -180,6 +180,10 @@ body {
     background-color: #212121;
 }
 
+.inner-card:hover {
+    background-color: hsl(0, 0%, 30%);
+}
+
 
 .inner-card img {
     width: 100%;
@@ -198,7 +202,7 @@ audio::-webkit-media-controls-panel {
 }
 
 audio::-webkit-media-controls-panel:hover {
-    background-color: rgb(45, 218, 73);
+    background-color: hsl(177, 58%, 50%);
 }
 
 footer {
