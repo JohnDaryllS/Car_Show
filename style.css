@@ -122,36 +122,6 @@ body {
     display: block;
 }
 
-.slider {
-    position: relative;
-    width: 100%;
-    height: 90vh;
-    overflow: hidden;
-}
-
-.slider-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    overflow: hidden;
-}
-
-.slider-content {
-    display: flex;
-    width: 10000%;
-    transition: transform 1s ease-in-out;
-}
-
-.slider-content img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: contain;
-}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -235,4 +205,71 @@ footer {
 .scroll-to-top.show {
     opacity: 1;
     visibility: visible;
+}
+
+@media (max-width: 480px) {
+
+    .heading3, h3 {
+        padding: 20px;
+        font-size: 30px;
+    }    
+
+    .navbar {
+        padding: 5px;
+    }
+    
+    .logo img {
+        height: 60px;
+        padding-left: 160%;
+    }
+    
+    .nav-links {
+        padding-right: 15%;
+        padding-top: 10px;
+    }
+    
+    .nav-links li {
+        position: relative;
+    
+    }
+    
+    .dropbtn {
+        padding: 6px 10px;
+        font-size: 6px;
+    }
+
+    div .carousel-inner {
+        height: 20%;
+    }
+
+    .outer-card {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    }
+    
+    .inner-card {
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    .inner-card img {
+        height: 20vh;
+        margin-bottom: 5px;
+    }
+
+    .scroll-to-top {
+        bottom: 50px;
+        right: 70px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
 }
