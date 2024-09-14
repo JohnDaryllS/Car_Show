@@ -14,4 +14,4 @@ sliderContent.appendChild(firstImageClone);
 
 sliderContent.style.width = `${(totalImages + 1) * 100}vw`;
 
-setInterval(moveToNextSlide, 4000);
+setInterval(moveToNextSlide, 2000);
